@@ -1,6 +1,8 @@
 html{
   margin-left: 5%;
   margin-right: 5%;
+  font-size: 200%;
+
 }
 
 .yuriy{
@@ -32,7 +34,7 @@ html{
    font-size: 275%;
  }
 .font{
-  font-size: 200%;
+  font-size: 100%;
 }
 .pad-down
 {
@@ -70,4 +72,44 @@ background-color: rgb(247, 235, 205)!important;
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+
+.click-me{
+  margin-top: 5%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.card-img-top{
+  width: 100%;
+  height: 50%;
+}
+.pp{
+  font-size: 200%;
+}
+.a-click{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.span-click{
+  font-size: 200%;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color: yellow;}
+  17% {background-color: pink;}
+  25%  {background-color: red;}
+  34% {background-color: turquoise;}
+  50%  {background-color: blue;}
+  67% {background-color: purple;}
+  75% {background-color: lightgreen;}
+  88% {background-color: pink;}
+  100% {background-color: green;}
 }

@@ -1,3 +1,13 @@
-const name = prompt('What is you name', );
+let yura = 2;
+let myname = 1;
+const yourname = prompt('If you see your name (more down) enter your number!!!\n\nVisiters:\n1.Suzana\n2.Yuran\n3.Adrey\n4.Andrey\n5.Ne ya...\nWhat is you name ?');
 
-alert(`${name} you are so beautiful!`);
+if ( myname == yourname ) {
+  alert(`${name} You Are The BEST For Me)))`);
+  endsWith();
+} if ( yura == yourname ) {
+  alert(`Privet ${name}! I know that you are loh) Just joke)Do not cry pls!)`);
+
+} else {
+  alert(`${name} Sorry...( I am not looking for you(`);
+}
